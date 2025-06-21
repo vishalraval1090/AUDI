@@ -15,9 +15,9 @@ jobs:
       - name: show all files
         run: ls -al
 
-      -name: Doing SSH to EC2
-       uses: appleboy/ssh-action@v1
-       with:
+      - name: Doing SSH to EC2
+        uses: appleboy/ssh-action@v1
+        with:
            host: ${{ secrets.EC2_HOST }}
            username: ${{ secrets.EC2_USERNAME }}
            port: 22
