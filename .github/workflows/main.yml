@@ -9,12 +9,12 @@ jobs:
   deploy:
     runs-on: unbuntu-latest
     
-        steps:
+    steps:
       - name: checkout code
         used: actions/checkout@v4
 
       - name: show all files
         run: ls -al
 
-        - name: doing SSH to Ec2
+      - name: doing SSH to Ec2
       
