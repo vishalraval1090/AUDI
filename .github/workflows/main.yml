@@ -9,7 +9,7 @@ jobs:
   deploy:
     runs-on: unbuntu-latest
     
-        steps:
+    steps:
       - name: checkout code
         used: actions/checkout@v4
 
