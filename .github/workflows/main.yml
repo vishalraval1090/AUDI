@@ -11,9 +11,7 @@ jobs:
     
     steps:
       - name: checkout code
-        used: actions/checkout@v4
+        uses: actions/checkout@v4
       - name: show all files
         run: ls -al
-
-        - name: doing SSH to Ec2
       
